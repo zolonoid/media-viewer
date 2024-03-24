@@ -1,10 +1,15 @@
 {
-  "name": "media-viewer",
+  "name": "media-viewer-vue",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "Multimedia player for Vue",
+  "main": "dist/media-viewer-vue.umd.min.js",
+  "keywords": ["media", "player", "audio", "video", "image"],
+  "author": {"name": "ivwvi"},
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name media-viewer-vue src/components/MediaViewer.vue"
   },
   "dependencies": {
     "core-js": "^3.8.3",

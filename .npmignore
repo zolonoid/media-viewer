@@ -1,0 +1,10 @@
+node_modules/
+src/
+public/
+.browserslistrc
+.gitignore
+vue.config.js
+babel.config.js
+jsconfig.json
+package-lock.json
+*.map
